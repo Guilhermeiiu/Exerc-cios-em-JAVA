@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class questao2 {
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
+        try  (Scanner scanner = new Scanner(System.in)) {
             while(true) {
                 System.out.println("Bem vindo! Faça sua converção aqui:");
             System.out.println("Quantos graus celcius?");
