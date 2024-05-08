@@ -1,10 +1,15 @@
+
+//Crie um algoritmo para armazenar a temperatura em graus Celsius e
+//apresentá-la convertida em graus Fahrenheit. 
+
+
 import java.util.Scanner;
 
 public class questao2 {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            for(;;){
-                
+            while(true) {
+                System.out.println("Bem vindo! Faça sua converção aqui:");
             System.out.println("Quantos graus celcius?");
             double c = scanner.nextDouble();
 
@@ -12,11 +17,19 @@ public class questao2 {
 
             System.out.println("Em Fahrenheit é:  " +  convercao);
 
+            System.out.println("Se você quer sair do programa, digite 1");
+            int resposta = scanner.nextInt();
+            if (resposta == 1) {
+                System.out.println("Tchau!!");
+                break;
+            }
 }
         }
         }  
-}
-
+} 
+        
     
+
+     
 
 
