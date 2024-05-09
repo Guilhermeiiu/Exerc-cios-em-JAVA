@@ -17,12 +17,13 @@ public class questao2 {
 
             System.out.println("Em Fahrenheit é:  " +  convercao);
 
-            System.out.println("Se você quer sair do programa, digite 1");
+            System.out.println("Se você quer calcular outro valor clique em aperte qualquer letra, senão digite 1");
             int resposta = scanner.nextInt();
             if (resposta == 1) {
                 System.out.println("Tchau!!");
                 break;
             }
+            else {continue;}
 }
         }
         }  

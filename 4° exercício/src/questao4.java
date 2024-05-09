@@ -22,11 +22,13 @@ public class questao4 {
 
         System.out.println("Você está vivo há " + diasVivos + " dias!");
 
-        System.out.println("Quer descobrir de outra pessoa ?(S/N)");
-        String sn = scanner.nextLine();
-        if (sn == "S") {continue;}
+        System.out.println("Quer descobrir de outra pessoa ?(1 para NÃO/ 2 para SIM)");
+        int sn = scanner.nextInt();
+        if (sn == 1) {
+            System.out.println("Tchau!");
+            break;}
             else  {
-                break;
+                continue;
             }}
             
               catch (DateTimeParseException e) {

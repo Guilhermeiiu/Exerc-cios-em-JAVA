@@ -45,12 +45,14 @@ else if (imc>=40) {
     System.out.println("Você está com obesidade (grau 3)");
     
 }
-       System.out.println("Quer calcular de novo? (S/N) ");
-       String resposta = scanner.next();
-       if (resposta=="S") {continue;
+       System.out.println("Quer calcular de novo? (1 para NÃO / 2 para SIM) ");
+       int resposta = scanner.nextInt();
+       if (resposta == 1) {
+        System.err.println("Tchau");
+        break;
         
        }
        else {
-        System.err.println("Tchau");break;}
+        continue;}
     }
 }} }
